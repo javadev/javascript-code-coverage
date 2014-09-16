@@ -9,5 +9,5 @@ after_script:
 - npm run coveralls
 notifications:
   slack:
-    secure: 
+    secure: 8KLh0r8YZrz47Cvm8qGFbI4pKpOEtqIAb
 
