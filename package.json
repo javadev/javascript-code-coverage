@@ -1,0 +1,55 @@
+{
+  "name": "compareStrings",
+  "description": "Compare strings liblary",
+  "keywords": [
+    "Compare",
+    "Strings"
+  ],
+  "homepage": "https://github.com/javadev/javascript-code-coverage",
+  "author": "Valentyn Kolesnikov",
+  "contributors": [
+    "Valentyn Kolesnikov <Valentyn.Kolesnikov@get.no>"
+  ],
+  "dependencies": {
+    "coveralls": "^2.11.1",
+    "gulp": "^3.8.6",
+    "gulp-coveralls": "^0.1.2",
+    "gulp-load-plugins": "^0.5.3",
+    "mocha-lcov-reporter": "0.0.1",
+    "pdfkit": "^0.6.5",
+    "request": "^2.39.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.6",
+    "gulp-jshint": "~1.8.2",
+    "chai": "^1.9.1",
+    "yargs": "^1.3.1",
+    "gulp-load-plugins": "^0.5.3",
+    "jshint-stylish": "~0.4.0",
+    "mocha": "~1.21.3",
+    "gulp-mocha": "~0.5.2",
+    "gulp-istanbul": "~0.2.1",
+    "istanbul": "^0.3.0",
+    "gulp-jscs": "^1.0.0",
+    "gulp-istanbul-enforcer": "^1.0.3",
+    "gulp-exit": "0.0.2",
+    "gulp-clean": "^0.3.1",
+    "gulp-util": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javadev/javascript-code-coverage.git"
+  },
+  "bugs:": "https://github.com/javadev/javascript-code-coverage/issues",
+  "main": "./lib/CompareStrings",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "gulp testCI",
+    "enforce": "gulp enforce",
+    "lint": "gulp lint",
+    "style": "gulp style",
+    "coveralls": "gulp coveralls"
+  }
+}
