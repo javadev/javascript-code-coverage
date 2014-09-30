@@ -16,6 +16,22 @@ describe('compareStrings', function () {
        expect(compareStrings('NAME1', 'NAME')).to.eql(false);
        done();
     });
+    it('should correct compare for the different strings', function (done) {
+       expect(compareStrings.bind(null, 'NAME')).to.throw(Error);
+       done();
+    });
+    it('should correct compare for the different strings', function (done) {
+       expect(compareStrings.bind('NAME1', null)).to.throw(Error);
+       done();
+    });
+    it('should correct compare for the different strings', function (done) {
+       expect(compareStrings.bind(undefined, 'NAME2')).to.throw(Error);
+       done();
+    });
+    it('should correct compare for the different strings', function (done) {
+       expect(compareStrings.bind('NAME1', undefined)).to.throw(Error);
+       done();
+    });
   });
 });
 
