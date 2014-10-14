@@ -32,11 +32,13 @@ describe('compareStrings', function () {
        expect(cs.compareStringsSort.bind('NAME1', null)).to.throw(Error);
        done();
     });
-    it('should throws exception if first parameter is undefined', function (done) {
+    it('should throws exception if first parameter is undefined',
+    function (done) {
        expect(cs.compareStringsSort.bind(undefined, 'NAME2')).to.throw(Error);
        done();
     });
-    it('should throws exception if second parameter is undefined', function (done) {
+    it('should throws exception if second parameter is undefined',
+    function (done) {
        expect(cs.compareStringsSort.bind('NAME1', undefined)).to.throw(Error);
        done();
     });
@@ -70,11 +72,13 @@ describe('compareStrings', function () {
        expect(cs.compareStringsDict.bind('NAME1', null)).to.throw(Error);
        done();
     });
-    it('should throws exception if first parameter is undefined', function (done) {
+    it('should throws exception if first parameter is undefined',
+    function (done) {
        expect(cs.compareStringsDict.bind(undefined, 'NAME2')).to.throw(Error);
        done();
     });
-    it('should throws exception if second parameter is undefined', function (done) {
+    it('should throws exception if second parameter is undefined',
+    function (done) {
        expect(cs.compareStringsDict.bind('NAME1', undefined)).to.throw(Error);
        done();
     });
