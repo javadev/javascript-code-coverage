@@ -1,13 +1,6 @@
 language: node_js
+sudo: false
 node_js:
 - '5.1'
-before_script:
-- npm run style
-- npm run lint
-after_script:
-- npm run enforce
-- npm run coveralls
-notifications:
-  slack:
-    secure: 8KLh0r8YZrz47Cvm8qGFbI4pKpOEtqIAb
-
+script:
+  - npm test
