@@ -1,6 +1,7 @@
 {
   "name": "compareStrings",
-  "description": "Compare strings liblary",
+  "version": "1.0.0",
+  "description": "Compare strings library",
   "keywords": [
     "Compare",
     "Strings"
