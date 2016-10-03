@@ -16,7 +16,7 @@
     "expect.js": "^0.3.1",
     "chai": "^3.4.0",
     "mocha": "^3.0.0-0",
-    "istanbul": "^0.4.4",
+    "istanbul": "^0.4.5",
     "codecov": "^1.0.0"
   },
   "repository": {
